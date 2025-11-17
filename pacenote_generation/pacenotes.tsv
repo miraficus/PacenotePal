@@ -1,0 +1,229 @@
+Left1	1 Links
+Left2	2 Links
+Left3	3 Links
+Left4	4 Links
+Left5	5 Links
+Left6	6 Links
+Right1	1 Rechts
+Right2	2 Rechts
+Right3	3 Rechts
+Right4	4 Rechts
+Right5	5 Rechts
+Right6	6 Rechts
+LeftRight	Links rechts
+RightLeft	Rechts links
+LeftAcuteHP	Scherpe haarspeld links
+RightAcuteHP	Scherpe haarspeld rechts
+LeftHP	Haarspeld links
+RightHP	Haarspeld rechts
+LeftOpenHP	Open haarspeld links
+RightOpenHP	Open haarspeld rechts
+LeftSquare	Haaks links
+RightSquare	Haaks rechts
+SuddenLeft	Directe links
+SuddenRight	Directe rechts
+LeftChicane	Chicane links
+RightChicane	Chicane rechts
+LeftChicaneEntry	Chicane ingang links
+RightChicaneEntry	Chicane ingang rechts
+Chicane	Chicane 
+LeftFlat	Vol links
+RightFlat	Vol rechts
+LeftKink	Kronkel links
+RightKink	Kronkel rechts
+Kinks	Kronkels
+KinksStartingLeft	Kronkel begint links
+KinksStartingRight	Kronkel begint rechts
+GoLeft	Linksaf
+GoRight	Rechtsaf
+GoStraight	Rechtdoor
+Dist40	40
+Dist50	50
+Dist60	60
+Dist70	70
+Dist80	80
+Dist90	90
+Dist100	100
+Dist130	130
+Dist150	150
+Dist170	170
+Dist200	200
+Dist250	250
+Dist300	300
+Dist350	350
+Dist400	400
+LongStraight	Lang rechtdoor
+VeryLongStraight	Extra lang rechtdoor
+Over	Over
+And	En
+Into	Naar
+After	Na
+Caution	Attentie
+DontCut	Niet snijden
+Dont	Niet
+Cut	Snijden
+SmallCut	Beetje snijden
+BigCut	Ruim snijden
+Yes	Ja
+CutIn	Snijden in
+Hidden	Verborgen
+Blind	Blinde
+Brake	Rem
+HeavyBrake	Rem hard
+Handbrake	Handrem
+BadCamber	Slechte camber
+FlatOut	Volgas
+Slippery	Glad
+KeepLeft	Houd links
+KeepRight	Houd rechts
+KeepMiddle	Houd midden
+KeepIn	Houd in
+KeepOut	Houd buiten
+CautionInside	Attentie binnen
+CautionOutside	Attentie buiten
+Sudden	Directe
+Immediate	Onmiddelijke
+TightensLate	Sluit laat
+OpensLate	Opent laat
+Late	Laat
+Early	Vroege
+SlowDown	Langzaam
+Long	Lang
+VeryLong	Extra lang
+Short	Kort
+ShortMale	Kort
+LongMale	Lang
+Tightens	Sluit
+Opens	Opent
+Narrows	Versmalt
+NarrowsOutside	Versmalt buiten
+NarrowsInside	Versmalt binnen
+NarrowsLeft	Versmalt links
+NarrowsRight	Versmalt rechts
+Widens	Verruimt
+WidensOutside	Verruimt buiten
+WidensInside	Verruimt binnen
+WidensLeft	Verruimt links
+WidensRight	Verruimt rechts
+Tighten1	Sluit 1
+Tighten2	Sluit 2
+Tighten3	Sluit 3
+Tighten4	Sluit 4
+Tighten5	Sluit 5
+SmallCrest	Kleine kam
+BigCrest	Grote kam
+Crest	Kam
+OverCrest	Over kam
+FlatCrest	Kam volgas
+JumpMaybe	Sprong misschien
+JumpSmall	Kleine sprong
+OverJumpSmall	Over kleine sprong
+JumpBig	Grote sprong
+OverBigJump	Over grote sprong
+Jump	Sprong
+OverJump	Over sprong
+Hole	Kuil
+Plus	Plus
+Minus	Minus
+Holes	Kuilen
+Inside	Binnen
+Outside	Buiten
+Bump	Hobbel
+OverBump	Over hobbel
+Bumps	Hobbels
+OverBumps	Over hobbels
+Dip	Daling
+IntoDip	Naar daling
+BigDip	Grote daling
+Ford	Stroom
+Ditch	Greppel
+DitchInside	Greppel binnen
+DitchOutside	Greppel buiten
+Rough	Ruw
+Loose	Mul
+Gravel	Grind
+OnGravel	Naar grind
+Asphalt	Asfalt
+OnAsphalt	Naar asfalt
+Snow	Sneeuw
+OnSnow	Naar sneeuw
+Ice	IJs
+OnIce	Naar ijs
+SnowAndIce	Sneeuw en ijs
+OnSnowAndIce	Naar sneeuw en ijs
+Concrete	Beton
+OnConcrete	Naar beton
+Pavement	Stoep
+OnPavement	Naar stoep
+LoseGravel	Los grind
+OnLooseGravel	Naar los grind
+Cobbles	Keien
+OnCobbles	Naar keien
+Pothole1	Plas
+Pothole2	Grote plas
+Potholes1	Plassen
+Potholes2	Grote plassen
+AtTheHouse	Bij huis
+AtTheCrossroad	Bij kruispunt
+Crossroad	Kruispunt
+AfterCrossroad	Na kruispunt
+AtJunction	Bij splitsing
+Junction	Splitsing
+AfterJunction	Na splitsing
+AtTheRoundabout	Bij rotonde
+Roundabout	Rotonde
+LogsOutside	Boomstammen buiten
+LogsInside	Boomstammen binnen
+Logs	Boomstammen
+ThreesOutside	Bomen buiten
+ThreesInside	Bomen binnen
+Threes	Bomen
+TreeOutside	Boom buiten
+TreeInside	Boom binnen
+Tree	Boom
+OverBridge	Over brug
+Bridge	Brug
+UnderBridge	Onder brug
+ThroughGate	Door poort
+Gate	Poort
+AtTheGate	Bij de poort
+AtTheRail	Bij de railing
+Downhill	Heuvel af
+UpHill	Heuvel op
+Up	Omhoog
+Down	Omlaag
+Water	Water
+WaterSplash	Water
+ThroughWater	Door water
+Tunnel	Tunnel
+ThroughTunnel	Door tunnel
+Ruts	Sporen
+Barrel	Ton
+Tyres	Banden
+Pole	Paal
+Bale	Hooibaal
+AroundBarrel	Om hooibaal
+AroundTyres	Om banden
+AroundPole	Om paal
+AroundBale	Om hooibaal
+AroundSign	Om bord
+AroundSigns	Om borden
+AtTheBarrel	Bij de ton
+AtTheTyres	Bij de banden
+AtThePoles	Bij de palen
+AtTheBale	Bij de hooibaal
+AtTheSigns	Bij de borden
+Signs	Borden
+AfterTheSigns	Na de borden
+AtTheSign	Bij het bord
+Sign	Bord
+AfterTheSign	Na het bord
+StopAtMarshals	Stop bij de marshals
+AfterEnd	Na de finish
+Finish	Finish
+Rock	Rots
+Rocks	Rotsen
+RocksInside	Rots binnen
+RocksOutside	Rots buiten
+Wet	Nat
+Mud	Modder

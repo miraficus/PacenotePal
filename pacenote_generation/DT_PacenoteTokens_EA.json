@@ -1,0 +1,5056 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PacenoteTokens_EA",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'PacenoteToken'",
+        "ObjectPath": "/Script/acr"
+      }
+    },
+    "Rows": {
+      "Pause0.1s": {
+        "Category": "Pauses",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.1,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Pause0.1s_Reset": {
+        "Category": "Pauses",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.1,
+        "BreakingPause": true,
+        "Description": ""
+      },
+      "Pause0.25s": {
+        "Category": "Pauses",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.25,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Pause0.25s_Reset": {
+        "Category": "Pauses",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.25,
+        "BreakingPause": true,
+        "Description": ""
+      },
+      "Pause0.5s": {
+        "Category": "Pauses",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.5,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Pause0.5s_Reset": {
+        "Category": "Pauses",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.5,
+        "BreakingPause": true,
+        "Description": ""
+      },
+      "Pause1s": {
+        "Category": "Pauses",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 1.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Pause1s_Reset": {
+        "Category": "Pauses",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 1.0,
+        "BreakingPause": true,
+        "Description": ""
+      },
+      "Pause1.5s": {
+        "Category": "Pauses",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 1.5,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Pause1.5s_Reset": {
+        "Category": "Pauses",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 1.5,
+        "BreakingPause": true,
+        "Description": ""
+      },
+      "EventBackward": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventCollide": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventOutOfTrack": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventPostCollide": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventStill": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventTooFast": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventCount5": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventCount4": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventCount3": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventCount2": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventCount1": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventCount0": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventStart": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventPreSemBegin": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventPreSemEnd": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventDisqualified1": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventDisqualified2": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventFinishedIn": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventFinishedMins": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventFinishedAnd": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventFinishedSecs": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb01": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb02": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb03": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb04": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb05": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb06": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb07": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb08": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb09": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb10": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb11": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb12": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb13": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb14": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Numb15": {
+        "Category": "Numbers",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventEndVerySlow": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventEndVeryFast": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventEndMarshals": {
+        "Category": "Events",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Left1": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/1L_Direction.1L_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Left2": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/2L_Direction.2L_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Left3": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/3L_Direction.3L_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Left4": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/4L_Direction.4L_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Left5": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/5L_Direction.5L_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Left6": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/6L_Direction.6L_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Right1": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/1R_Direction.1R_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Right2": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/2R_Direction.2R_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Right3": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/3R_Direction.3R_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Right4": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/4R_Direction.4R_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Right5": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/5R_Direction.5R_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Right6": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/6R_Direction.6R_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LeftRight": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/LR_Direction.LR_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "RightLeft": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/RL_Direction.RL_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LeftAcuteHP": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/AcuteHpL_Direction.AcuteHpL_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "RightAcuteHP": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/AcuteHpR_Direction.AcuteHpR_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LeftHP": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/HpL_Direction.HpL_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "RightHP": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/HpR_Direction.HpR_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LeftOpenHP": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/HpL_Direction.HpL_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "RightOpenHP": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/HpR_Direction.HpR_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LeftSquare": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/SqL_Direction.SqL_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "RightSquare": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/SqR_Direction.SqR_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "SuddenLeft": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/SL_Direction.SL_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "SuddenRight": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/SR_Direction.SR_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LeftChicane": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/LChicane_Direction.LChicane_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "RightChicane": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/RChicane_Direction.RChicane_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LeftChicaneEntry": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/WChER_Direction.WChER_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "RightChicaneEntry": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/WChEL_Direction.WChEL_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Chicane": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LeftFlat": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/FlL_Direction.FlL_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "RightFlat": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/FlR_Direction.FlR_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LeftKink": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/KinkLeft_Direction.KinkLeft_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "RightKink": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/KinkRight_Direction.KinkRight_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Kinks": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Kinks_Details.Kinks_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "KinksStartingLeft": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/KinksL_Direction.KinksL_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "KinksStartingRight": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Directions/KinksR_Direction.KinksR_Direction",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "GoLeft": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/GoLeft_Warnings.GoLeft_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "GoRight": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/GoRight_Warnings.GoRight_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "GoStraight": {
+        "Category": "Directions",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/GoStraight_Warnings.GoStraight_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist40": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/40_Distance.40_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist50": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/50_Distance.50_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist60": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/60_Distance.60_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist70": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/70_Distance.70_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist80": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/80_Distance.80_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist90": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/90_Distance.90_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist100": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/100_Distance.100_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist130": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/130_Distance.130_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist150": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/150_Distance.150_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist170": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/170_Distance.170_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist200": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/200_Distance.200_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist250": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/250_Distance.250_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist300": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/300_Distance.300_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist350": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/350_Distance.350_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dist400": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Distances/400_Distance.400_Distance",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LongStraight": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "VeryLongStraight": {
+        "Category": "Distances",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Over": {
+        "Category": "Conjunctions",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "And": {
+        "Category": "Conjunctions",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Into": {
+        "Category": "Conjunctions",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "After": {
+        "Category": "Conjunctions",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Caution": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Caution_Details.Caution_Details",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "DontCut": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/DontCut_Details.DontCut_Details",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dont": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/DontCut_Details.DontCut_Details",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Cut": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "SmallCut": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "BigCut": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Yes": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "CutIn": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Hidden": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Blind": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Brake": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "HeavyBrake": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Handbrake": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "BadCamber": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "FlatOut": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Slippery": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "KeepLeft": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "KeepRight": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "KeepMiddle": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "KeepIn": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "KeepOut": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "CautionInside": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Caution_Details.Caution_Details",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "CautionOutside": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Caution_Details.Caution_Details",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Sudden": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Immediate": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "TightensLate": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Tightens_Details.Tightens_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OpensLate": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Opens_Details.Opens_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Late": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Early": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "SlowDown": {
+        "Category": "Warnings",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Long": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "VeryLong": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Short": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "ShortMale": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LongMale": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Tightens": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Tightens_Details.Tightens_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Opens": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Opens_Details.Opens_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Narrows": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "NarrowsOutside": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "NarrowsInside": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "NarrowsLeft": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "NarrowsRight": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Widens": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "WidensOutside": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "WidensInside": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "WidensLeft": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "WidensRight": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Tighten1": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Tightens1_Details.Tightens1_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Tighten2": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Tightens2_Details.Tightens2_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Tighten3": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Tightens3_Details.Tightens3_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Tighten4": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Tightens4_Details.Tightens4_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Tighten5": {
+        "Category": "TurnDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Tightens5_Details.Tightens5_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "SmallCrest": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/Crest_Warnings.Crest_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "BigCrest": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/Crest_Warnings.Crest_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Crest": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/Crest_Warnings.Crest_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OverCrest": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/OverCrest_Details.OverCrest_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "FlatCrest": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "JumpMaybe": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/Jump_Warnings.Jump_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Maybe_Details.Maybe_Details",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "JumpSmall": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/Jump_Warnings.Jump_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OverJumpSmall": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/OverJump_Details.OverJump_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "JumpBig": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/Jump_Warnings.Jump_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OverBigJump": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/OverJump_Details.OverJump_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Jump": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/Jump_Warnings.Jump_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OverJump": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/OverJump_Details.OverJump_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Hole": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Plus": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Minus": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Holes": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Inside": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Outside": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Bump": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/Crest_Warnings.Crest_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OverBump": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/OverCrest_Details.OverCrest_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Bumps": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/BumpsSingle_Warnings.BumpsSingle_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OverBumps": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/Bumps_Details.Bumps_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Dip": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/OverDip_Details.OverDip_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "IntoDip": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/OverDip_Details.OverDip_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "BigDip": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Details/OverDip_Details.OverDip_Details",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Ford": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Ditch": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "DitchInside": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "DitchOutside": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Rough": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Loose": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Gravel": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OnGravel": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Asphalt": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OnAsphalt": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Snow": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OnSnow": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Ice": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OnIce": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "SnowAndIce": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OnSnowAndIce": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Concrete": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OnConcrete": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Pavement": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OnPavement": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LoseGravel": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OnLooseGravel": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Cobbles": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OnCobbles": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Pothole1": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Pothole2": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Potholes1": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Potholes2": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtTheHouse": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtTheCrossroad": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Crossroad": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AfterCrossroad": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtJunction": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Junction": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AfterJunction": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtTheRoundabout": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Roundabout": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LogsOutside": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "LogsInside": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Logs": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "ThreesOutside": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "ThreesInside": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Threes": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "TreeOutside": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "TreeInside": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Tree": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "OverBridge": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Bridge": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "UnderBridge": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "ThroughGate": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Gate": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtTheGate": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtTheRail": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Downhill": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "UpHill": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Up": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Down": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Water": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "WaterSplash": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "ThroughWater": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Tunnel": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "ThroughTunnel": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Ruts": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Barrel": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Tyres": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Pole": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Bale": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AroundBarrel": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AroundTyres": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AroundPole": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AroundBale": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AroundSign": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AroundSigns": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtTheBarrel": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtTheTyres": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtThePoles": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtTheBale": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtTheSigns": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Signs": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AfterTheSigns": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AtTheSign": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Sign": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AfterTheSign": {
+        "Category": "Landmarks",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "StopAtMarshals": {
+        "Category": "RaceInstruction",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/Stop_Warnings.Stop_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "AfterEnd": {
+        "Category": "RaceInstruction",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Finish": {
+        "Category": "RaceInstruction",
+        "MainTex": {
+          "AssetPathName": "/Game/Data/Pacenote/UI/Warnings/Finish_Warnings.Finish_Warnings",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Rock": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Rocks": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "RocksInside": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "RocksOutside": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Wet": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "Mud": {
+        "Category": "RoadDetails",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventCountdown": {
+        "Category": "None",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      },
+      "EventCountdownGo": {
+        "Category": "None",
+        "MainTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailHighTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DetailLowTex": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Pause": 0.0,
+        "BreakingPause": false,
+        "Description": ""
+      }
+    }
+  }
+]

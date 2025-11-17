@@ -1,0 +1,1285 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PacenoteMunsterShort2Reverse",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'PacenoteSplineEntry'",
+        "ObjectPath": "/Script/acr"
+      }
+    },
+    "Rows": {
+      "R0000": {
+        "SplineDistanceM": 219.88443,
+        "LengthM": 57.60554,
+        "TokenList": {
+          "Tokens": [
+            "Right5",
+            "Pause0.1s",
+            "And"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -586193.0,
+          "Y": -109801.875,
+          "Z": 104029.375
+        }
+      },
+      "R0001": {
+        "SplineDistanceM": 285.90176,
+        "LengthM": 77.162704,
+        "TokenList": {
+          "Tokens": [
+            "Left5",
+            "Long"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -586102.3,
+          "Y": -102708.88,
+          "Z": 104581.47
+        }
+      },
+      "R0002": {
+        "SplineDistanceM": 370.50977,
+        "LengthM": 130.72142,
+        "TokenList": {
+          "Tokens": [
+            "Dist130"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -585316.56,
+          "Y": -94371.766,
+          "Z": 105215.3
+        }
+      },
+      "R0003": {
+        "SplineDistanceM": 505.64166,
+        "LengthM": 58.791317,
+        "TokenList": {
+          "Tokens": [
+            "Right6",
+            "Short",
+            "DontCut"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -581179.3,
+          "Y": -81546.93,
+          "Z": 106183.59
+        }
+      },
+      "R0004": {
+        "SplineDistanceM": 566.48883,
+        "LengthM": 150.56902,
+        "TokenList": {
+          "Tokens": [
+            "Pause0.1s",
+            "Dist150"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -579969.2,
+          "Y": -75627.586,
+          "Z": 106646.84
+        }
+      },
+      "R0005": {
+        "SplineDistanceM": 731.1485,
+        "LengthM": 97.22953,
+        "TokenList": {
+          "Tokens": [
+            "Right6",
+            "DontCut"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -577964.5,
+          "Y": -59327.65,
+          "Z": 107800.375
+        }
+      },
+      "R0006": {
+        "SplineDistanceM": 829.86914,
+        "LengthM": 52.463123,
+        "TokenList": {
+          "Tokens": [
+            "Pause0.25s",
+            "Dist50"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0007": {
+        "SplineDistanceM": 884.8388,
+        "LengthM": 104.810425,
+        "TokenList": {
+          "Tokens": [
+            "Left6",
+            "Long"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -578640.1,
+          "Y": -48766.984,
+          "Z": 108626.02
+        }
+      },
+      "R0008": {
+        "SplineDistanceM": 990.9873,
+        "LengthM": 74.47773,
+        "TokenList": {
+          "Tokens": [
+            "Pause0.25s",
+            "Dist80"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0009": {
+        "SplineDistanceM": 1068.5021,
+        "LengthM": 140.60057,
+        "TokenList": {
+          "Tokens": [
+            "Right6",
+            "Long"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -577418.4,
+          "Y": -28625.508,
+          "Z": 110132.16
+        }
+      },
+      "R0010": {
+        "SplineDistanceM": 1216.2938,
+        "LengthM": 95.52037,
+        "TokenList": {
+          "Tokens": [
+            "And",
+            "Left6"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -575520.4,
+          "Y": -11343.168,
+          "Z": 111511.945
+        }
+      },
+      "R0011": {
+        "SplineDistanceM": 1326.2203,
+        "LengthM": 75.7484,
+        "TokenList": {
+          "Tokens": [
+            "Caution",
+            "Pause0.25s_Reset",
+            "Right3"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -575415.25,
+          "Y": -405.37067,
+          "Z": 112374.74
+        }
+      },
+      "R0012": {
+        "SplineDistanceM": 1404.5137,
+        "LengthM": 46.989536,
+        "TokenList": {
+          "Tokens": [
+            "Into",
+            "Left2",
+            "Tightens",
+            "DontCut"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -576885.06,
+          "Y": 7092.986,
+          "Z": 112904.664
+        }
+      },
+      "R0013": {
+        "SplineDistanceM": 1470.1261,
+        "LengthM": 40.109356,
+        "TokenList": {
+          "Tokens": [
+            "Right5"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -574674.8,
+          "Y": 11671.121,
+          "Z": 113258.66
+        }
+      },
+      "R0014": {
+        "SplineDistanceM": 1511.7429,
+        "LengthM": 55.080936,
+        "TokenList": {
+          "Tokens": [
+            "Dist50"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0015": {
+        "SplineDistanceM": 1567.6881,
+        "LengthM": 91.41037,
+        "TokenList": {
+          "Tokens": [
+            "Left3",
+            "Opens",
+            "Long",
+            "Pause0.1s",
+            "DontCut"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -568467.06,
+          "Y": 18782.398,
+          "Z": 113698.77
+        }
+      },
+      "R0016": {
+        "SplineDistanceM": 1660.727,
+        "LengthM": 37.825935,
+        "TokenList": {
+          "Tokens": [
+            "Dist40"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0017": {
+        "SplineDistanceM": 1701.1664,
+        "LengthM": 79.41265,
+        "TokenList": {
+          "Tokens": [
+            "Right6",
+            "OverCrest"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -556056.7,
+          "Y": 22919.309,
+          "Z": 114548.336
+        }
+      },
+      "R0018": {
+        "SplineDistanceM": 1793.462,
+        "LengthM": 76.034546,
+        "TokenList": {
+          "Tokens": [
+            "Into",
+            "Left5",
+            "Long"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -546972.2,
+          "Y": 24941.383,
+          "Z": 115227.914
+        }
+      },
+      "R0019": {
+        "SplineDistanceM": 1870.618,
+        "LengthM": 32.92953,
+        "TokenList": {
+          "Tokens": [
+            "Over",
+            "JumpMaybe"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0020": {
+        "SplineDistanceM": 1905.5273,
+        "LengthM": 97.948586,
+        "TokenList": {
+          "Tokens": [
+            "Caution",
+            "Pause0.25s_Reset",
+            "Right6",
+            "TightensLate"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -535972.5,
+          "Y": 24854.566,
+          "Z": 115855.9
+        }
+      },
+      "R0021": {
+        "SplineDistanceM": 2006.782,
+        "LengthM": 58.186523,
+        "TokenList": {
+          "Tokens": [
+            "Pause1s",
+            "Into",
+            "Right2",
+            "OverCrest",
+            "DontCut"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -525974.25,
+          "Y": 23797.129,
+          "Z": 116405.03
+        }
+      },
+      "R0022": {
+        "SplineDistanceM": 2067.982,
+        "LengthM": 36.51387,
+        "TokenList": {
+          "Tokens": [
+            "Into",
+            "LeftSquare",
+            "DontCut"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -521442.03,
+          "Y": 27095.156,
+          "Z": 116406.29
+        }
+      },
+      "R0023": {
+        "SplineDistanceM": 2108.521,
+        "LengthM": 200.47777,
+        "TokenList": {
+          "Tokens": [
+            "Pause1s",
+            "Dist200"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -518363.34,
+          "Y": 28398.52,
+          "Z": 116010.68
+        }
+      },
+      "R0024": {
+        "SplineDistanceM": 2321.255,
+        "LengthM": 72.09233,
+        "TokenList": {
+          "Tokens": [
+            "LeftKink"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -497446.97,
+          "Y": 24977.027,
+          "Z": 114255.07
+        }
+      },
+      "R0025": {
+        "SplineDistanceM": 2395.5942,
+        "LengthM": 66.66281,
+        "TokenList": {
+          "Tokens": [
+            "Into",
+            "Right4",
+            "DontCut"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -490239.0,
+          "Y": 23247.832,
+          "Z": 113723.836
+        }
+      },
+      "R0026": {
+        "SplineDistanceM": 2465.1218,
+        "LengthM": 40.562344,
+        "TokenList": {
+          "Tokens": [
+            "Dist40"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0027": {
+        "SplineDistanceM": 2509.5325,
+        "LengthM": 42.57659,
+        "TokenList": {
+          "Tokens": [
+            "RightKink"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -479039.03,
+          "Y": 23934.486,
+          "Z": 113117.195
+        }
+      },
+      "R0028": {
+        "SplineDistanceM": 2554.185,
+        "LengthM": 68.81457,
+        "TokenList": {
+          "Tokens": [
+            "Into",
+            "Left3",
+            "Short"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -474850.3,
+          "Y": 25430.572,
+          "Z": 112862.01
+        }
+      },
+      "R0029": {
+        "SplineDistanceM": 2626.2144,
+        "LengthM": 66.286896,
+        "TokenList": {
+          "Tokens": [
+            "And",
+            "Sudden",
+            "Right4",
+            "Opens"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -467948.53,
+          "Y": 27070.07,
+          "Z": 112549.23
+        }
+      },
+      "R0030": {
+        "SplineDistanceM": 2693.602,
+        "LengthM": 49.56625,
+        "TokenList": {
+          "Tokens": [
+            "Dist50"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0031": {
+        "SplineDistanceM": 2746.197,
+        "LengthM": 67.10713,
+        "TokenList": {
+          "Tokens": [
+            "Caution",
+            "Brake",
+            "Left5",
+            "OverCrest"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -457190.7,
+          "Y": 30230.334,
+          "Z": 112069.414
+        }
+      },
+      "R0032": {
+        "SplineDistanceM": 2830.4548,
+        "LengthM": 96.14404,
+        "TokenList": {
+          "Tokens": [
+            "Pause0.1s_Reset",
+            "Into",
+            "RightHP",
+            "TightensLate"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -448569.5,
+          "Y": 32933.445,
+          "Z": 111487.516
+        }
+      },
+      "R0033": {
+        "SplineDistanceM": 2927.602,
+        "LengthM": 54.719685,
+        "TokenList": {
+          "Tokens": [
+            "Dist60"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0034": {
+        "SplineDistanceM": 2983.943,
+        "LengthM": 65.32621,
+        "TokenList": {
+          "Tokens": [
+            "Right4",
+            "Tightens"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -449684.44,
+          "Y": 41157.773,
+          "Z": 109816.2
+        }
+      },
+      "R0035": {
+        "SplineDistanceM": 3049.7183,
+        "LengthM": 54.251247,
+        "TokenList": {
+          "Tokens": [
+            "Pause0.25s",
+            "Dist50"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0036": {
+        "SplineDistanceM": 3106.295,
+        "LengthM": 128.17798,
+        "TokenList": {
+          "Tokens": [
+            "Left4",
+            "VeryLong",
+            "DontCut"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -461421.34,
+          "Y": 42787.676,
+          "Z": 108533.53
+        }
+      },
+      "R0037": {
+        "SplineDistanceM": 3235.6775,
+        "LengthM": 41.556248,
+        "TokenList": {
+          "Tokens": [
+            "RightKink"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0038": {
+        "SplineDistanceM": 3277.8687,
+        "LengthM": 76.81159,
+        "TokenList": {
+          "Tokens": [
+            "And",
+            "Left4"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -475237.78,
+          "Y": 53055.062,
+          "Z": 106853.9
+        }
+      },
+      "R0039": {
+        "SplineDistanceM": 3358.922,
+        "LengthM": 51.7312,
+        "TokenList": {
+          "Tokens": [
+            "And",
+            "Right6",
+            "Short"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -477611.12,
+          "Y": 59565.438,
+          "Z": 106258.66
+        }
+      },
+      "R0040": {
+        "SplineDistanceM": 3417.3303,
+        "LengthM": 73.7287,
+        "TokenList": {
+          "Tokens": [
+            "Caution",
+            "Left2",
+            "Tightens",
+            "Pause0.1s_Reset",
+            "SmallCut",
+            "KeepIn"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -478747.34,
+          "Y": 64940.09,
+          "Z": 105871.16
+        }
+      },
+      "R0041": {
+        "SplineDistanceM": 3498.0903,
+        "LengthM": 97.083725,
+        "TokenList": {
+          "Tokens": [
+            "Dist100"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -476300.56,
+          "Y": 70892.086,
+          "Z": 105171.52
+        }
+      },
+      "R0042": {
+        "SplineDistanceM": 3598.0864,
+        "LengthM": 100.62191,
+        "TokenList": {
+          "Tokens": [
+            "KinksStartingLeft",
+            "OverCrest"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -468704.3,
+          "Y": 75416.34,
+          "Z": 104359.77
+        }
+      },
+      "R0043": {
+        "SplineDistanceM": 3700.4077,
+        "LengthM": 74.96094,
+        "TokenList": {
+          "Tokens": [
+            "Dist70"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0044": {
+        "SplineDistanceM": 3779.356,
+        "LengthM": 108.11998,
+        "TokenList": {
+          "Tokens": [
+            "KinksStartingRight"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -453665.66,
+          "Y": 83788.5,
+          "Z": 102753.66
+        }
+      },
+      "R0045": {
+        "SplineDistanceM": 3901.48,
+        "LengthM": 53.698757,
+        "TokenList": {
+          "Tokens": [
+            "Pause0.25s_Reset",
+            "Caution",
+            "Brake",
+            "Right5",
+            "Tightens"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -441543.03,
+          "Y": 92056.64,
+          "Z": 101345.88
+        }
+      },
+      "R0046": {
+        "SplineDistanceM": 3962.948,
+        "LengthM": 28.420296,
+        "TokenList": {
+          "Tokens": [
+            "Into",
+            "Sudden",
+            "LeftAcuteHP"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -437622.47,
+          "Y": 95817.52,
+          "Z": 100904.914
+        }
+      },
+      "R0047": {
+        "SplineDistanceM": 3995.504,
+        "LengthM": 41.510624,
+        "TokenList": {
+          "Tokens": [
+            "Dist40",
+            "OverCrest"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "R0048": {
+        "SplineDistanceM": 4039.288,
+        "LengthM": 93.17123,
+        "TokenList": {
+          "Tokens": [
+            "Pause0.25s",
+            "Right2",
+            "Long",
+            "Opens"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -435274.75,
+          "Y": 90923.44,
+          "Z": 100431.55
+        }
+      },
+      "R0049": {
+        "SplineDistanceM": 4134.9917,
+        "LengthM": 60.0,
+        "TokenList": {
+          "Tokens": [
+            "Dist60"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -428893.53,
+          "Y": 85232.58,
+          "Z": 99482.83
+        }
+      },
+      "R0050": {
+        "SplineDistanceM": 4197.639,
+        "LengthM": 53.438126,
+        "TokenList": {
+          "Tokens": [
+            "Right4",
+            "BadCamber"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -422688.75,
+          "Y": 84607.51,
+          "Z": 98895.11
+        }
+      },
+      "R0051": {
+        "SplineDistanceM": 4251.9355,
+        "LengthM": 70.04406,
+        "TokenList": {
+          "Tokens": [
+            "And",
+            "Left5",
+            "Long"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -417386.8,
+          "Y": 85341.82,
+          "Z": 98341.99
+        }
+      },
+      "R0052": {
+        "SplineDistanceM": 4325.3184,
+        "LengthM": 60.642185,
+        "TokenList": {
+          "Tokens": [
+            "Dist60"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -410284.56,
+          "Y": 86968.22,
+          "Z": 97775.46
+        }
+      },
+      "R0053": {
+        "SplineDistanceM": 4391.7573,
+        "LengthM": 71.04436,
+        "TokenList": {
+          "Tokens": [
+            "RightKink"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -403680.78,
+          "Y": 87385.85,
+          "Z": 97188.75
+        }
+      },
+      "R0054": {
+        "SplineDistanceM": 4471.3174,
+        "LengthM": 110.08499,
+        "TokenList": {
+          "Tokens": [
+            "Into",
+            "Left4",
+            "Long",
+            "TightensLate",
+            "Pause0.1s",
+            "DontCut"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -395775.88,
+          "Y": 87780.12,
+          "Z": 96439.195
+        }
+      },
+      "R0055": {
+        "SplineDistanceM": 4606.474,
+        "LengthM": 79.43437,
+        "TokenList": {
+          "Tokens": [
+            "Caution",
+            "BadCamber",
+            "Pause0.1s_Reset",
+            "Right3",
+            "Long"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -382901.72,
+          "Y": 84931.33,
+          "Z": 95170.21
+        }
+      },
+      "R0056": {
+        "SplineDistanceM": 4687.8145,
+        "LengthM": 101.113434,
+        "TokenList": {
+          "Tokens": [
+            "Dist100"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -375049.03,
+          "Y": 84334.25,
+          "Z": 94420.24
+        }
+      },
+      "R0057": {
+        "SplineDistanceM": 4809.6514,
+        "LengthM": 54.456867,
+        "TokenList": {
+          "Tokens": [
+            "Left6"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -363881.75,
+          "Y": 89049.664,
+          "Z": 93424.27
+        }
+      },
+      "R0058": {
+        "SplineDistanceM": 4869.463,
+        "LengthM": 70.586555,
+        "TokenList": {
+          "Tokens": [
+            "And",
+            "Right5",
+            "Long"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -358369.28,
+          "Y": 91310.9,
+          "Z": 93030.45
+        }
+      },
+      "R0059": {
+        "SplineDistanceM": 4941.9487,
+        "LengthM": 100.384674,
+        "TokenList": {
+          "Tokens": [
+            "Dist100"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -351745.53,
+          "Y": 94163.44,
+          "Z": 92494.18
+        }
+      },
+      "R0060": {
+        "SplineDistanceM": 5050.873,
+        "LengthM": 69.46655,
+        "TokenList": {
+          "Tokens": [
+            "LeftFlat",
+            "IntoDip"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -342560.5,
+          "Y": 99959.03,
+          "Z": 91740.875
+        }
+      },
+      "R0061": {
+        "SplineDistanceM": 5121.16,
+        "LengthM": 81.984665,
+        "TokenList": {
+          "Tokens": [
+            "Dist80",
+            "OverBumps"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -336538.28,
+          "Y": 103550.625,
+          "Z": 91277.97
+        }
+      },
+      "R0062": {
+        "SplineDistanceM": 5218.269,
+        "LengthM": 47.752495,
+        "TokenList": {
+          "Tokens": [
+            "Caution",
+            "Left4"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -327763.34,
+          "Y": 107940.11,
+          "Z": 90632.55
+        }
+      },
+      "R0063": {
+        "SplineDistanceM": 5267.856,
+        "LengthM": 57.42437,
+        "TokenList": {
+          "Tokens": [
+            "And",
+            "Right4",
+            "DontCut"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -323219.34,
+          "Y": 109525.95,
+          "Z": 90333.75
+        }
+      },
+      "R0064": {
+        "SplineDistanceM": 5335.7373,
+        "LengthM": 63.60186,
+        "TokenList": {
+          "Tokens": [
+            "LeftFlat",
+            "Long"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -317137.72,
+          "Y": 112368.664,
+          "Z": 90085.3
+        }
+      },
+      "R0065": {
+        "SplineDistanceM": 5425.7036,
+        "LengthM": 38.56187,
+        "TokenList": {
+          "Tokens": [
+            "Caution",
+            "Left3",
+            "DontCut"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -309177.2,
+          "Y": 116500.86,
+          "Z": 89778.914
+        }
+      },
+      "R0066": {
+        "SplineDistanceM": 5466.73,
+        "LengthM": 31.891874,
+        "TokenList": {
+          "Tokens": [
+            "And",
+            "Sudden",
+            "Right3",
+            "KeepIn"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -305242.3,
+          "Y": 117503.05,
+          "Z": 89642.19
+        }
+      },
+      "R0067": {
+        "SplineDistanceM": 5499.2563,
+        "LengthM": 61.933125,
+        "TokenList": {
+          "Tokens": [
+            "Dist60"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -302146.12,
+          "Y": 118227.11,
+          "Z": 89498.08
+        }
+      },
+      "R0068": {
+        "SplineDistanceM": 5564.08,
+        "LengthM": 132.82625,
+        "TokenList": {
+          "Tokens": [
+            "Left5",
+            "VeryLong",
+            "Tighten4"
+          ]
+        },
+        "LinkToNext": true,
+        "Description": "",
+        "SavedLocation": {
+          "X": -296039.3,
+          "Y": 120340.19,
+          "Z": 89101.92
+        }
+      },
+      "R0069": {
+        "SplineDistanceM": 5692.2866,
+        "LengthM": 79.71373,
+        "TokenList": {
+          "Tokens": [
+            "OverCrest",
+            "Dist80"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -283484.53,
+          "Y": 116941.01,
+          "Z": 88525.03
+        }
+      },
+      "R0070": {
+        "SplineDistanceM": 5773.0405,
+        "LengthM": 63.64,
+        "TokenList": {
+          "Tokens": [
+            "Finish"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -276535.28,
+          "Y": 110861.484,
+          "Z": 88067.805
+        }
+      },
+      "R0071": {
+        "SplineDistanceM": 5840.876,
+        "LengthM": 95.228745,
+        "TokenList": {
+          "Tokens": [
+            "SlowDown",
+            "Right4",
+            "Tightens"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -273092.75,
+          "Y": 107781.43,
+          "Z": 87837.914
+        }
+      },
+      "R0072": {
+        "SplineDistanceM": 5984.586,
+        "LengthM": 22.015625,
+        "TokenList": {
+          "Tokens": [
+            "StopAtMarshals"
+          ]
+        },
+        "LinkToNext": false,
+        "Description": "",
+        "SavedLocation": {
+          "X": -262584.0,
+          "Y": 105598.44,
+          "Z": 87184.266
+        }
+      }
+    }
+  }
+]

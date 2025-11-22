@@ -11,9 +11,10 @@ from pyaccsharedmemory import accSharedMemory
 
 
 class ACRally:
-    def __init__(self, voice, stage, call_earliness):
+    def __init__(self, voice, stage, call_earliness, start_button):
         self.voice = voice
         self.call_earliness = call_earliness
+        self.start_button = start_button
         self.notes_list = []
         self.exit_all = False
         self.started = False
@@ -35,8 +36,8 @@ class ACRally:
         asm = accSharedMemory()
         last_shared_memory = None
 
-        print("Press the space bar when the countdown starts!")
-        while not keyboard.is_pressed("space") and not self.exit_all:
+        print(f"Press {self.start_button} when the countdown starts!")
+        while not keyboard.is_pressed(self.start_button) and not self.exit_all:
             time.sleep(0.1)
         winsound.Beep(800, 250)
 
@@ -102,6 +103,9 @@ class ACRally:
             else:
                 time.sleep(0.1)
         print("Speak thread closed")
+
+    def get_distance(self):
+        return self.distance
 
     def exit(self):
         self.exit_all = True

@@ -23,7 +23,8 @@ editing the YAML files in the `pacenotes` folder, or adding a new file.
 Changing settings
 -----------------
 
-All settings can be found in the `config.yml` file.
+All settings can be found in the `config.yml` file. You can change them by right-clicking on the file and
+selecting "Edit in Notepad". Changes only come into effect after restarting the application.
 
 Creating your own pacenotes from scratch
 ----------------------------------------

@@ -74,6 +74,17 @@ class ACRally:
         print("Retrieve thread closed")
 
     def speak_thread(self):
+        token_sounds = {}
+        for entry in os.listdir(f"voices\\{self.voice}"):
+            # This regex allows for After.wav and After_1.wav, etc. and matches the main token
+            matches = re.match(r"(.+?)(?:_\d+)?\.wav", entry)
+            if matches:
+                token = matches.group(1)
+                if not token in token_sounds:
+                    token_sounds[token] = []
+                with open(f"voices\\{self.voice}\\{entry}", "rb") as f:
+                    token_sounds[token].append(f.read())
+
         while not self.exit_all and not self.started:
             time.sleep(0.1)
 
@@ -91,17 +102,13 @@ class ACRally:
 
                 for token in tokens:
                     print(token)
-                    if matches := re.match('Pause([\\d.]+)s(?:_Reset)?', token):
+                    if token in token_sounds:
+                        sound = random.choice(token_sounds[token])
+                        winsound.PlaySound(sound, winsound.SND_MEMORY | winsound.SND_NODEFAULT | winsound.SND_NOSTOP)
+                    elif matches := re.match('Pause([\\d.]+)s(?:_Reset)?', token):
                         pause_time = float(matches.group(1))
                         print(f"Sleeping for {pause_time}")
                         time.sleep(pause_time)
-                    else:
-                        # This regex allows for After.wav and After_1.wav, etc.
-                        files = [entry for entry in os.listdir(f"voices\\{self.voice}")
-                                 if re.match(re.escape(token) + r'(?:_\d+)?\.wav', entry)]
-                        if len(files) > 0:
-                            filename = f"voices\\{self.voice}\\{random.choice(files)}"
-                            winsound.PlaySound(filename, winsound.SND_FILENAME)
 
             else:
                 time.sleep(0.1)

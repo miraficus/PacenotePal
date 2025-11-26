@@ -27,7 +27,8 @@ class Main:
             str(self.stages.get()),
             self.config.get("voice", "English"),
             float(self.config.get("call_distance", 1.0)),
-            self.config.get("start_button", "space")
+            self.config.get("start_button", "space"),
+            self.config.get("handbrake", None)
         )
         self.btn_start["state"] = "disabled"
         self.btn_stop["state"] = "normal"

@@ -1,6 +1,7 @@
 import os.path
 import random
 import re
+import threading
 import time
 from threading import Thread
 
@@ -8,14 +9,16 @@ import keyboard
 import winsound
 import yaml
 
+from handbrake import Handbrake
 from pyaccsharedmemory import accSharedMemory
 
 
 class ACRally:
-    def __init__(self, stage, voice, call_earliness, start_button):
+    def __init__(self, stage, voice, call_earliness, start_button, handbrake):
         self.voice = voice
         self.call_earliness = call_earliness
         self.start_button = start_button
+        self.handbrake = handbrake
         self.notes_list = []
         self.exit_all = False
         self.started = False
@@ -41,9 +44,24 @@ class ACRally:
         asm = accSharedMemory()
         last_shared_memory = None
 
-        print(f"Press {self.start_button} when the countdown starts!")
-        while not keyboard.is_pressed(self.start_button) and not self.exit_all:
-            time.sleep(0.1)
+        handbrake_pressed = False
+
+        if self.handbrake:
+            handbrake = Handbrake(self.handbrake)
+
+            def check_pressed_2s():
+                nonlocal handbrake_pressed
+                while not self.started and not self.exit_all:
+                    if handbrake.get_pressed():
+                        time.sleep(2)
+                        if handbrake.get_pressed():
+                            handbrake_pressed = True
+                    time.sleep(0.1)
+            threading.Thread(target=check_pressed_2s, daemon=True).start()
+
+        while (not keyboard.is_pressed(self.start_button) and not handbrake_pressed) and not self.exit_all:
+            time.sleep(0.05)
+
         winsound.Beep(800, 250)
 
         while not self.exit_all:

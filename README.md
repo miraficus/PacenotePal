@@ -56,7 +56,7 @@ out immediately after it as well.
 3. `notes` - A list of the audio files to call out at this pacenote. The notes are the audio files from the voices
 folder, and you can also add your own audio files if you want notes that are not in the game (e.g. sumppu). If the
 file does not exist it will be skipped. The audio files have to be .wav. Additionally, you can add fixed pauses by
-adding `PauseX.Ys`, e.g. `Pause1.5s` to pause for 1.5 seconds.
+adding `PauseX.Ys`, e.g. `Pause1.5s` to pause for 1.5 seconds. The file names are case-sensitive.
 
 Creating your own voices
 ------------------------
@@ -99,7 +99,7 @@ possible to create multiple options for this by adding a `_1`, `_2`, etc., like 
 It will pick one at random.
 
 Custom notes should ideally consist of letters and numbers. Please use the UpperCamelCase convention, and
-avoid names with only numbers and special characters.
+avoid names with only numbers and special characters. 
 
 Thanks to
 ---------

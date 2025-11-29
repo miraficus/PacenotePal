@@ -1,5 +1,5 @@
-original = open(f"pacenotes_orig.tsv", encoding="utf-8")
-data = open(f"pacenotes.tsv", encoding="utf-8")
+original = open(f"pacenotes_combined_orig.tsv", encoding="utf-8")
+data = open(f"pacenotes_combined.tsv", encoding="utf-8")
 
 
 def to_dict(tsv):
@@ -49,7 +49,7 @@ for key, value in data.items():
     )
 
     # The response's audio_content is binary.
-    with open(f"../voices/{key}.wav", "wb") as out:
+    with open(f"../voices/Dutch/{key}.wav", "wb") as out:
         # Write the response to the output file.
         out.write(response.audio_content)
         print(key)

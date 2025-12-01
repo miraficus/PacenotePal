@@ -30,6 +30,7 @@ class Main:
             self.config.get("start_button", "space"),
             self.config.get("handbrake", None)
         )
+        self.acrally.start()
         self.btn_start["state"] = "disabled"
         self.btn_stop["state"] = "normal"
 

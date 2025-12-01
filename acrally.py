@@ -33,8 +33,8 @@ class ACRally:
         else:
             self.notes_list = []
             self.distance = 0
-        print(self.distance)
 
+    def start(self):
         retrieve = Thread(target=self.retrieve_thread, daemon=True)
         speak = Thread(target=self.speak_thread, daemon=True)
         retrieve.start()
@@ -92,6 +92,28 @@ class ACRally:
         print("Retrieve thread closed")
 
     def speak_thread(self):
+        token_sounds = self.build_token_sounds()
+
+        while not self.exit_all and not self.started:
+            time.sleep(0.1)
+
+        while len(self.notes_list) > 0 and not self.exit_all:
+            if self.notes_list[0]["distance"] < self.distance + (120 + (self.speed_kmh // 2)) * self.call_earliness:
+                note = self.notes_list.pop(0)
+                tokens = self.combine_tokens(note["notes"], token_sounds)
+                link_to_next = note["link_to_next"]
+                while link_to_next:
+                    next_note = self.notes_list.pop(0)
+                    next_tokens = self.combine_tokens(next_note["notes"], token_sounds)
+                    tokens.extend(next_tokens)
+                    link_to_next = next_note["link_to_next"]
+
+                self.play_tokens(tokens, token_sounds)
+            else:
+                time.sleep(0.1)
+        print("Speak thread closed")
+
+    def build_token_sounds(self):
         token_sounds = {}
         for entry in os.listdir(f"voices\\{self.voice}"):
             # This regex allows for After.wav and After_1.wav, etc. and matches the main token
@@ -102,57 +124,35 @@ class ACRally:
                     token_sounds[token] = []
                 with open(f"voices\\{self.voice}\\{entry}", "rb") as f:
                     token_sounds[token].append(f.read())
-
-        while not self.exit_all and not self.started:
-            time.sleep(0.1)
-
-        while len(self.notes_list) > 0 and not self.exit_all:
-            if self.notes_list[0]["distance"] < self.distance + (120 + (self.speed_kmh // 2)) * self.call_earliness:
-                note = self.notes_list.pop(0)
-                tokens = note["notes"]
-                link_to_next = note["link_to_next"]
-                while link_to_next:
-                    next_note = self.notes_list.pop(0)
-                    next_tokens = next_note["notes"]
-                    tokens.extend(next_tokens)
-                    link_to_next = next_note["link_to_next"]
-
-                tokens = self.combine_tokens(tokens, token_sounds)
-
-                for token in tokens:
-                    # print(token)
-                    if token in token_sounds:
-                        sound = random.choice(token_sounds[token])
-                        winsound.PlaySound(sound, winsound.SND_MEMORY | winsound.SND_NODEFAULT | winsound.SND_NOSTOP)
-                    elif matches := re.match('Pause([\\d.]+)s(?:_Reset)?', token):
-                        pause_time = float(matches.group(1))
-                        print(f"Sleeping for {pause_time}")
-                        time.sleep(pause_time)
-
-            else:
-                time.sleep(0.1)
-        print("Speak thread closed")
+        return token_sounds
 
     def combine_tokens(self, tokens, token_sounds):
         new_tokens = []
-        i = 0
-        longest_match = []
-        while i + len(longest_match) < len(tokens):
-            for token in tokens[i:]:
-                token = str(token)
-                key = longest_match + [token]
-                if "-".join(key) in token_sounds:
-                    longest_match = key
-                else:
-                    if len(longest_match) == 0:
-                        longest_match.append(token)
-                    new_tokens.append("-".join(longest_match))
-                    i += len(longest_match)
-                    longest_match = []
+        while len(tokens) > 0:
+            for i in reversed(range(len(tokens))):
+                key = "-".join(tokens[:i + 1])
+                # print(key)
+                if key in token_sounds or i == 0:
+                    # i == 0 is required for when a token does not exist
+                    # e.g. PauseX.Ys
+                    new_tokens.append(key)
+                    tokens = tokens[i + 1:]
                     break
-        if len(longest_match) > 0:
-            new_tokens.append("-".join(longest_match))
         return new_tokens
+
+    def match_pause(self, token):
+        if matches := re.match('Pause([\\d.]+)s(?:_Reset)?', token):
+            return float(matches.group(1))
+        return None
+
+    def play_tokens(self, tokens, token_sounds):
+        for token in tokens:
+            # print(token)
+            if token in token_sounds:
+                sound = random.choice(token_sounds[token])
+                winsound.PlaySound(sound, winsound.SND_MEMORY | winsound.SND_NODEFAULT | winsound.SND_NOSTOP)
+            elif pause_time := self.match_pause(token):
+                time.sleep(pause_time)
 
     def get_distance(self):
         return self.distance

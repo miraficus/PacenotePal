@@ -32,8 +32,9 @@ class ScrollableFrame(ttk.Frame):
 
 root = tk.Tk()
 root.title("AC Rally Pacenote Pal editor")
-root.geometry("500x600")
+root.geometry("600x600")
 pacenote_elements = []
+pacenote_vars = []
 
 top_frame = ttk.Frame(root, padding=10)
 top_frame.pack(fill="x")
@@ -45,9 +46,10 @@ pacenotes_combo.grid(row=0, column=0, padx=5, pady=5)
 voices_combo.grid(row=0, column=1, padx=5, pady=5)
 
 def load_pacenotes():
-    global pacenote_elements
+    global pacenote_elements, pacenote_vars
     [x.destroy() for x in pacenote_elements]
     pacenote_elements = []
+    pacenote_vars = []
 
     acrally = ACRally(
         pacenotes_combo.get(),
@@ -56,10 +58,9 @@ def load_pacenotes():
         None,
         None
     )
+    token_sounds = acrally.build_token_sounds()
 
     pacenotes = yaml.safe_load(open(f"pacenotes/{pacenotes_combo.get()}.yml"))
-
-    token_sounds = acrally.build_token_sounds()
 
     for i, pacenote in enumerate(pacenotes):
         playable_tokens = acrally.combine_tokens(pacenote["notes"], token_sounds)
@@ -72,24 +73,43 @@ def load_pacenotes():
         play_btn.grid(row=i, column=0, padx=5, pady=5)
         pacenote_elements.append(play_btn)
 
-        distance_lbl = ttk.Label(scroll_frame.scrollable_frame, text=str(int(pacenote["distance"])))
+        distance_var = tk.StringVar(value=str(int(pacenote["distance"])))
+        distance_lbl = ttk.Entry(scroll_frame.scrollable_frame, textvariable=distance_var, width=6)
         distance_lbl.grid(row=i, column=1, padx=5, pady=5)
         pacenote_elements.append(distance_lbl)
+        pacenote_vars.append(distance_var)
 
+        link_var = tk.BooleanVar(value=pacenote["link_to_next"])
         link_chk = ttk.Checkbutton(
             scroll_frame.scrollable_frame,
-            state="disabled"
+            variable=link_var,
+            text="Link to next"
         )
-        link_chk.state(["!alternate"])
-        if pacenote["link_to_next"]:
-            link_chk.state(["selected"])
         link_chk.grid(row=i, column=2, padx=5, pady=5)
         pacenote_elements.append(link_chk)
+        pacenote_vars.append(link_var)
 
         pacenotes_frame = ttk.Frame(scroll_frame.scrollable_frame)
         pacenotes_frame.grid(row=i, column=3, padx=5, pady=5, sticky="w")
-        for t in pacenote["notes"]:
-            ttk.Label(pacenotes_frame, text=t).pack(anchor="w")
+        for note_idx, t in enumerate(pacenote["notes"]):
+            note_var = tk.StringVar(value=t)
+            note_combo = ttk.Combobox(pacenotes_frame, values=list(token_sounds.keys()), textvariable=note_var)
+            note_combo.grid(row=note_idx, column=0)
+            note_up = ttk.Button(pacenotes_frame, text="↑", width=3)
+            note_up.grid(row=note_idx, column=1)
+            if note_idx == 0:
+                note_up["state"] = "disabled"
+            note_down = ttk.Button(pacenotes_frame, text="↓", width=3)
+            note_down.grid(row=note_idx, column=2)
+            if note_idx == len(pacenote["notes"]) - 1:
+                note_down["state"] = "disabled"
+            note_remove = ttk.Button(pacenotes_frame, text="🗑", width=3)
+            note_remove.grid(row=note_idx, column=3)
+            pacenote_vars.append(note_var)
+        def add_note(i=i):
+            pacenotes[i]["notes"].append("")
+        add_button = ttk.Button(pacenotes_frame, text="Add +", command=add_note)
+        add_button.grid(row=len(pacenote["notes"]), column=1, columnspan=3)
         pacenote_elements.append(pacenotes_frame)
 
         combined_pacenotes_frame = ttk.Frame(scroll_frame.scrollable_frame)

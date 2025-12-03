@@ -30,106 +30,225 @@ class ScrollableFrame(ttk.Frame):
         canvas.pack(side="left", fill="both", expand=True)
         scrollbar.pack(side="right", fill="y")
 
-root = tk.Tk()
-root.title("AC Rally Pacenote Pal editor")
-root.geometry("600x600")
-pacenote_elements = []
-pacenote_vars = []
+class Editor:
+    def __init__(self):
+        self.scroll_frame = None
+        self.pacenotes_combo = None
+        self.voices_combo = None
 
-top_frame = ttk.Frame(root, padding=10)
-top_frame.pack(fill="x")
+        self.acrally = None
+        self.pacenote_elements = []
+        self.pacenote_vars = []
 
-pacenotes_combo = ttk.Combobox(top_frame, values=[x.replace(".yml", "") for x in os.listdir("pacenotes")])
-voices_combo = ttk.Combobox(top_frame, values=[x for x in os.listdir("voices")])
+        self.token_sounds = None
+        self.pacenotes = None
+        self.pacenote_options = []
 
-pacenotes_combo.grid(row=0, column=0, padx=5, pady=5)
-voices_combo.grid(row=0, column=1, padx=5, pady=5)
-
-def load_pacenotes():
-    global pacenote_elements, pacenote_vars
-    [x.destroy() for x in pacenote_elements]
-    pacenote_elements = []
-    pacenote_vars = []
-
-    acrally = ACRally(
-        pacenotes_combo.get(),
-        voices_combo.get(),
-        1,
-        None,
-        None
-    )
-    token_sounds = acrally.build_token_sounds()
-
-    pacenotes = yaml.safe_load(open(f"pacenotes/{pacenotes_combo.get()}.yml"))
-
-    for i, pacenote in enumerate(pacenotes):
-        playable_tokens = acrally.combine_tokens(pacenote["notes"], token_sounds)
-        # print(pacenote["notes"], playable_tokens)
-
-        def play(t=playable_tokens):
-            threading.Thread(target=acrally.play_tokens, args=(t, token_sounds), daemon=True).start()
-        play_btn = ttk.Button(scroll_frame.scrollable_frame, text="▶", width=3,
-                         command=play)
-        play_btn.grid(row=i, column=0, padx=5, pady=5)
-        pacenote_elements.append(play_btn)
-
-        distance_var = tk.StringVar(value=str(int(pacenote["distance"])))
-        distance_lbl = ttk.Entry(scroll_frame.scrollable_frame, textvariable=distance_var, width=6)
-        distance_lbl.grid(row=i, column=1, padx=5, pady=5)
-        pacenote_elements.append(distance_lbl)
-        pacenote_vars.append(distance_var)
-
-        link_var = tk.BooleanVar(value=pacenote["link_to_next"])
-        link_chk = ttk.Checkbutton(
-            scroll_frame.scrollable_frame,
-            variable=link_var,
-            text="Link to next"
+    def load_pacenotes(self):
+        self.acrally = ACRally(
+            self.pacenotes_combo.get(),
+            self.voices_combo.get(),
+            1,
+            None,
+            None
         )
-        link_chk.grid(row=i, column=2, padx=5, pady=5)
-        pacenote_elements.append(link_chk)
-        pacenote_vars.append(link_var)
+        self.token_sounds = self.acrally.build_token_sounds()
+        self.pacenotes = yaml.safe_load(open(f"pacenotes/{self.pacenotes_combo.get()}.yml"))
+        self.pacenote_options = [x for x in self.token_sounds.keys() if "-" not in x]
+        self.pacenote_options.extend(["Pause0.1s", "Pause0.25s", "Pause0.5s", "Pause1.0s", "Pause1.5s"])
+        self.draw_pacenotes_frame()
 
-        pacenotes_frame = ttk.Frame(scroll_frame.scrollable_frame)
-        pacenotes_frame.grid(row=i, column=3, padx=5, pady=5, sticky="w")
-        for note_idx, t in enumerate(pacenote["notes"]):
-            note_var = tk.StringVar(value=t)
-            note_combo = ttk.Combobox(pacenotes_frame, values=list(token_sounds.keys()), textvariable=note_var)
-            note_combo.grid(row=note_idx, column=0)
-            note_up = ttk.Button(pacenotes_frame, text="↑", width=3)
-            note_up.grid(row=note_idx, column=1)
-            if note_idx == 0:
-                note_up["state"] = "disabled"
-            note_down = ttk.Button(pacenotes_frame, text="↓", width=3)
-            note_down.grid(row=note_idx, column=2)
-            if note_idx == len(pacenote["notes"]) - 1:
-                note_down["state"] = "disabled"
-            note_remove = ttk.Button(pacenotes_frame, text="🗑", width=3)
-            note_remove.grid(row=note_idx, column=3)
-            pacenote_vars.append(note_var)
-        def add_note(i=i):
-            pacenotes[i]["notes"].append("")
-        add_button = ttk.Button(pacenotes_frame, text="Add +", command=add_note)
-        add_button.grid(row=len(pacenote["notes"]), column=1, columnspan=3)
-        pacenote_elements.append(pacenotes_frame)
+    def save_pacenotes(self):
+        yaml.dump(
+            self.pacenotes,
+            open(f"pacenotes/{self.pacenotes_combo.get()}.yml", "w"),
+            default_flow_style=None,
+            sort_keys=False
+        )
 
-        combined_pacenotes_frame = ttk.Frame(scroll_frame.scrollable_frame)
-        combined_pacenotes_frame.grid(row=i, column=4, padx=5, pady=5, sticky="w")
-        for t in playable_tokens:
-            lbl = ttk.Label(combined_pacenotes_frame, text=t)
-            lbl.pack(anchor="w")
-            if pause := acrally.match_pause(t):
-                lbl["text"] = f"Pause {pause} seconds"
-                lbl["foreground"] = "blue"
-            elif t not in token_sounds:
-                lbl["foreground"] = "red"
-        pacenote_elements.append(combined_pacenotes_frame)
+    def draw_pacenotes_frame(self):
+        [x.destroy() for x in self.pacenote_elements]
+        self.pacenote_elements = []
+        self.pacenote_vars = []
 
-load_button = ttk.Button(top_frame, text="Load", command=load_pacenotes)
-load_button.grid(row=0, column=2, padx=10, pady=5)
+        def draw_pacenotes(i, pacenote):
+            distance_var = tk.StringVar(value=str(int(pacenote["distance"])))
+            distance_entry = ttk.Entry(self.scroll_frame.scrollable_frame, textvariable=distance_var, width=6)
+            distance_entry.grid(row=i, column=1, padx=5, pady=5)
+            self.pacenote_elements.append(distance_entry)
 
-# Scrollable frame
-scroll_frame = ScrollableFrame(root)
-scroll_frame.pack(fill="both", expand=True)
+            def distance_change(e, i=i):
+                distance = distance_var.get().strip()
+                if distance.isdigit():
+                    key = lambda x: x["distance"]
+                    self.pacenotes[i]["distance"] = int(distance)
+                    sorted_list = sorted(self.pacenotes, key=key)
+                    if self.pacenotes != sorted_list:
+                        self.pacenotes.sort(key=key)
+                        self.draw_pacenotes_frame()
+            distance_entry.bind("<FocusOut>", distance_change)
+            distance_entry.bind("<Return>", distance_change)
+            # self.pacenote_vars.append(distance_var)
 
+            link_var = tk.BooleanVar(value=pacenote["link_to_next"])
+            def link_change(index, value, op, i=i):
+                self.pacenotes[i]["link_to_next"] = link_var.get()
+            link_var.trace("w", link_change)
+            link_chk = ttk.Checkbutton(
+                self.scroll_frame.scrollable_frame,
+                variable=link_var,
+                text="Link to next"
+            )
+            link_chk.grid(row=i, column=2, padx=5, pady=5)
+            self.pacenote_elements.append(link_chk)
+            self.pacenote_vars.append(link_var)
 
-root.mainloop()
+            pacenotes_frame = None
+            combined_pacenotes_frame = None
+
+            def draw_pacenotes(
+                    pacenotes_frame=pacenotes_frame,
+                    combined_pacenotes_frame=combined_pacenotes_frame,
+                    pacenote=pacenote,
+                    i=i
+            ):
+                if pacenotes_frame:
+                    pacenotes_frame.destroy()
+                if combined_pacenotes_frame:
+                    combined_pacenotes_frame.destroy()
+                pacenotes_frame = ttk.Frame(self.scroll_frame.scrollable_frame)
+                pacenotes_frame.grid(row=i, column=3, padx=5, pady=5, sticky="w")
+
+                def create_entry(note_idx, t):
+                    note_var = tk.StringVar(value=t)
+                    note_combo = ttk.Combobox(
+                        pacenotes_frame,
+                        values=self.pacenote_options,
+                        textvariable=note_var
+                    )
+                    note_combo.grid(row=note_idx, column=0)
+
+                    def note_change(e, note_idx=note_idx):
+                        self.pacenotes[i]["notes"][note_idx] = note_var.get()
+                        draw_pacenotes(
+                            pacenotes_frame,
+                            combined_pacenotes_frame,
+                            pacenote,
+                            i
+                        )
+                    note_combo.bind("<FocusOut>", note_change)
+                    note_combo.bind("<Return>", note_change)
+                    self.pacenote_vars.append(note_var)
+
+                    def note_up(note_idx=note_idx):
+                        self.pacenotes[i]["notes"].insert(note_idx - 1, self.pacenotes[i]["notes"].pop(note_idx))
+                        draw_pacenotes(
+                            pacenotes_frame,
+                            combined_pacenotes_frame,
+                            pacenote,
+                            i
+                        )
+
+                    note_up = ttk.Button(pacenotes_frame, text="↑", width=3, command=note_up)
+                    note_up.grid(row=note_idx, column=1)
+                    if note_idx == 0:
+                        note_up["state"] = "disabled"
+
+                    def note_down(note_idx=note_idx):
+                        self.pacenotes[i]["notes"].insert(note_idx + 1, self.pacenotes[i]["notes"].pop(note_idx))
+                        draw_pacenotes(
+                            pacenotes_frame,
+                            combined_pacenotes_frame,
+                            pacenote,
+                            i
+                        )
+
+                    note_down = ttk.Button(pacenotes_frame, text="↓", width=3, command=note_down)
+                    note_down.grid(row=note_idx, column=2)
+                    if note_idx == len(pacenote["notes"]) - 1:
+                        note_down["state"] = "disabled"
+
+                    def note_remove(note_idx=note_idx):
+                        self.pacenotes[i]["notes"].pop(note_idx)
+                        draw_pacenotes(
+                            pacenotes_frame,
+                            combined_pacenotes_frame,
+                            pacenote,
+                            i
+                        )
+
+                    note_remove = ttk.Button(pacenotes_frame, text="🗑", width=3, command=note_remove)
+                    note_remove.grid(row=note_idx, column=3)
+
+                for note_idx, t in enumerate(pacenote["notes"]):
+                    create_entry(note_idx, t)
+
+                def add_note(i=i):
+                    self.pacenotes[i]["notes"].append("")
+                    draw_pacenotes(
+                        pacenotes_frame,
+                        combined_pacenotes_frame,
+                        pacenote,
+                        i
+                    )
+                add_button = ttk.Button(pacenotes_frame, text="+ Add", command=add_note)
+                add_button.grid(row=len(pacenote["notes"]), column=1, columnspan=3)
+                self.pacenote_elements.append(pacenotes_frame)
+
+                playable_tokens = self.acrally.combine_tokens(pacenote["notes"], self.token_sounds)
+                combined_pacenotes_frame = ttk.Frame(self.scroll_frame.scrollable_frame)
+                combined_pacenotes_frame.grid(row=i, column=4, padx=5, pady=5, sticky="w")
+                for t in playable_tokens:
+                    lbl = ttk.Label(combined_pacenotes_frame, text=t)
+                    lbl.pack(anchor="w")
+                    if pause := self.acrally.match_pause(t):
+                        lbl["text"] = f"Pause {pause} seconds"
+                        lbl["foreground"] = "blue"
+                    elif t not in self.token_sounds:
+                        lbl["foreground"] = "red"
+                def play(t=playable_tokens):
+                    threading.Thread(target=self.acrally.play_tokens, args=(t, self.token_sounds), daemon=True).start()
+                play_btn = ttk.Button(combined_pacenotes_frame, text="▶ Play", command=play)
+                play_btn.pack(anchor="w")
+                self.pacenote_elements.append(play_btn)
+                self.pacenote_elements.append(combined_pacenotes_frame)
+            draw_pacenotes()
+
+        for i, pacenote in enumerate(self.pacenotes):
+            draw_pacenotes(i, pacenote)
+
+    def main(self):
+        root = tk.Tk()
+        root.title("AC Rally Pacenote Pal editor")
+        root.geometry("600x600")
+
+        top_frame = ttk.Frame(root, padding=10)
+        top_frame.pack(fill="x")
+
+        self.pacenotes_combo = ttk.Combobox(
+            top_frame,
+            values=[x.replace(".yml", "") for x in os.listdir("pacenotes")],
+            width=25
+        )
+        self.voices_combo = ttk.Combobox(top_frame, values=[x for x in os.listdir("voices")])
+        self.pacenotes_combo.current(0)
+        self.voices_combo.current(0)
+
+        self.pacenotes_combo.grid(row=0, column=0, padx=5, pady=5)
+        self.voices_combo.grid(row=0, column=1, padx=5, pady=5)
+
+        load_button = ttk.Button(top_frame, text="Load", command=self.load_pacenotes)
+        load_button.grid(row=0, column=2, padx=10, pady=5)
+
+        save_button = ttk.Button(top_frame, text="Save", command=self.save_pacenotes)
+        save_button.grid(row=0, column=3, padx=10, pady=5)
+
+        # Scrollable frame
+        self.scroll_frame = ScrollableFrame(root)
+        self.scroll_frame.pack(fill="both", expand=True)
+
+        root.mainloop()
+
+if __name__ == "__main__":
+    editor = Editor()
+    editor.main()

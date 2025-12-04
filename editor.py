@@ -278,10 +278,10 @@ class Editor:
         self.voices_combo.grid(row=0, column=1, padx=5, pady=5)
 
         self.load_button = ttk.Button(top_frame, text="Load", command=self.load_pacenotes)
-        self.load_button.grid(row=0, column=2, padx=10, pady=5)
+        self.load_button.grid(row=0, column=2, padx=5, pady=5)
 
         self.save_button = ttk.Button(top_frame, text="Save", command=self.save_pacenotes)
-        self.save_button.grid(row=0, column=3, padx=10, pady=5)
+        self.save_button.grid(row=0, column=3, padx=5, pady=5)
         self.save_button["state"] = "disabled"
 
         # Scrollable frame

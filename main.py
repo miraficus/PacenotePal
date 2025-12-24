@@ -188,7 +188,7 @@ class Main:
         btn_distance = ttk.Button(btn_frame, text="Odometer", command=self.on_button_distance)
         btn_distance.pack(side=tk.LEFT, padx=10)
 
-        ttk.Label(root, text=f"Click start and press {self.config.get("start_button", "space")} when the countdown starts!").pack(pady=(20, 5))
+        ttk.Label(root, text=f"Click start and press {self.config.get('start_button', 'space')} when the countdown starts!").pack(pady=(20, 5))
 
         btn_frame2 = tk.Frame(root)
         btn_frame2.pack(pady=10)
